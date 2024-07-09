@@ -7,4 +7,3 @@ Astronauta::Astronauta(string cpf, string nome, int idade) {
         this->disponivel = 1;
         this->vivo = 1;
     }
-};
