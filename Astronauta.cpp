@@ -1,4 +1,10 @@
 #include "Astronauta.h"
 
-Astronauta::Astronauta(string cpf, string nome, int idade)
-    : cpf(cpf), nome(nome), idade(idade), disponivel(1), vivo(1) {}
+Astronauta::Astronauta(string cpf, string nome, int idade) {
+        this->cpf = cpf;
+        this->nome = nome;
+        this->idade = idade;
+        this->disponivel = 1;
+        this->vivo = 1;
+    }
+};
